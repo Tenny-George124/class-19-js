@@ -32,13 +32,30 @@
       tongue; if he licks you, that means he likes you!
     </p>
 
-    <figure>
-      <img src="images/jeff-giraffe.jpg" alt="Jeff the Giraffe">
-      <figcaption>
-        Our Friend Jeff.
-        <cite>Source: <a href="https://pixabay.com/en/giraffe-zoo-mammal-animal-head-2481840/">https://pixabay.com/en/giraffe-zoo-mammal-animal-head-2481840/</a></cite>
-      </figcaption>
-    </figure>
+    <div class="thumbnail-gallery">
+      <div id="gallery-thumbnails">
+        <!--Image Source: https://pixabay.com/en/giraffe-zoo-mammal-animal-head-2481840/-->
+        <!--Image License: CC0 Creative-->
+        <button id="buttonA"><img src="images/jeff-giraffe.jpg" alt="Giraffe, show image 1"></button>
+
+        <!--Image Source: https://pixabay.com/photos/giraffe-laying-down-nature-uganda-4499694/-->
+        <!--Image License: Simplified Pixabay License-->
+        <button id="buttonB"><img src="images/jeff-sitting.jpg" alt="Giraffe, show image 2"></button>
+
+        <!--Image Source: https://pixabay.com/photos/giraffe-nature-safari-africa-1029795/-->
+        <!--Image License: Simplified Pixabay License-->
+        <button id="buttonC"><img src="images/jeff-standing.jpg" alt="Giraffe, show image 3"></button>
+    </div>
+
+    <div class="gallery-figures">
+      <figure id="itemA">
+        <img src="images/jeff-giraffe.jpg" alt="Jeff the Giraffe">
+        <figcaption>
+          Our Friend Jeff.
+          <cite>Source: <a href="https://pixabay.com/en/giraffe-zoo-mammal-animal-head-2481840/">https://pixabay.com/en/giraffe-zoo-mammal-animal-head-2481840/</a></cite>
+        </figcaption>
+      </figure>
+    </div>
 
     <p>
       Jeff, like all giraffes, sleeps very little (&lt; 30 minutes a night) in make sure he is alert &amp; ready to
@@ -70,6 +87,8 @@
     </p>
   </main>
 
+  <script src="scripts/jquery-3.7.1.js"></script>
+  <script src="scripts/gallery.js"></script>
 </body>
 
 </html>
